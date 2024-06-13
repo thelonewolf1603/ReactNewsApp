@@ -23,7 +23,7 @@ import {Input} from '@mui/material'
 
     return ( <div className='root'>
         <div className = 'navBar'>
-            <h1 className='brandName'>Newsify</h1>
+            <h1 className='brandName'>NewsLand</h1>
             <Input onChange={(e)=>{setText(e.target.value)}} className='searchInput' type='text'/>
             <button className='searchButton' onClick={getNews}>Get Latest News</button>
         </div>
