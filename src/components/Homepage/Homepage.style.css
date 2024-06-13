@@ -1,0 +1,54 @@
+.navBar{
+    height: 100px;
+    width: 100%;
+    background: rgb(133, 28, 231);
+    position: relative;
+    display: flex;
+    align-items: center; 
+    
+}
+.searchButton{
+    background-color: black;
+    width: 10%;
+    height: 40%;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.brandName{
+   
+    width: 10%;
+    height: 40%;
+}
+
+.searchButton:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: grey;
+}
+
+.searchInput{
+    background-color: white;
+    width: 30%;
+    height: 40%;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.root{
+    background-color: violet;
+    min-height: 100%;
+}
+
+.articleList{
+    margin: 10px;
+    scroll-behavior:inherit;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
+    gap: 20px; /* Spacing between articles */
+}
